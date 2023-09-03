@@ -12,7 +12,7 @@ html {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/aaaaaaaaaaaaaaa.webp);
+    background-image: url(images/aaaaaaaaaaaaaaa.webp);
     background-size: cover;
     background-position: center;
 }
@@ -30,41 +30,6 @@ nav {
     background-color: #000;
     padding: 50px;
 }
-
-
-/* .navbar{
-   display:flex ; 
-   left: 100%;
-   transition: left 0.3s;
-}
-
-.nav-menu-item{
-    left:0;
-}
-
-.nav-toggle{
-    background: none;
-    color: transparent;
-    display: none;
-}  */
-
-
- /* @media(max-width: 768px){
-    .navbar{
-        flex-direction: column;
-        margin-right: 20px;
-        position: fixed;
-     }
-
-     .nav-toggle{
-     
-        display:block ;
-    }
-    .navbar_visible{
-left: 0;
-    }
-  
-}  */
 
 
 .logo {
@@ -196,13 +161,9 @@ h4 {
         cursor: pointer;
     }
 
-    .btn {
-        display: none;
-    }
-
-    nav ul {
-       
-    }
+.content{
+    margin-top: 120px;
+}
 
     h1 {
         font-size: 35px;
