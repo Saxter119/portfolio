@@ -12,7 +12,7 @@ html {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(images/aaaaaaaaaaaaaaa.webp);
+    background-image: url(./images/aaaaaaaaaaaaaaa.webp);
     background-size: cover;
     background-position: center;
 }
@@ -61,7 +61,8 @@ nav ul li .navbar__link:hover {
     transition: 0.4s;
 }
 
-.btn, .btn-principal {
+.btn,
+.btn-principal {
     background-color: darkorchid;
     color: white;
     text-decoration: none;
@@ -75,6 +76,11 @@ nav ul li .navbar__link:hover {
 .btn:hover {
     transform: scale(1.2);
 }
+
+.btn-principal:hover {
+    transform: scale(1.2);
+}
+
 
 
 .content {
@@ -161,9 +167,14 @@ h4 {
         cursor: pointer;
     }
 
-.content{
-    margin-top: 120px;
-}
+    .btn {
+        padding: 7px 18px;
+    }
+
+    .content {
+        margin-top: 120px;
+
+    }
 
     h1 {
         font-size: 35px;
@@ -185,6 +196,12 @@ h4 {
     }
 }
 
+@media only screen and (max-width: 520px) {
+
+    .btn {
+        display: contents;
+    }
+}
 
 .about {
     width: 100%;
@@ -636,7 +653,9 @@ footer p:nth-child(2) {
     100% {
         width: 80%;
     }
-}@keyframes netcore {
+}
+
+@keyframes netcore {
     100% {
         width: 70%;
     }
@@ -813,6 +832,5 @@ a {
         }
 
     }
-    
-}
 
+}
