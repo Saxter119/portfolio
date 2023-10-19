@@ -502,6 +502,8 @@ footer p:nth-child(2) {
 
 /* merge */
 .container {
+    padding-top: 20px;
+    padding-bottom: 40px;
     width: 100%;
     height: 100vh;
     background: #222;
@@ -798,6 +800,8 @@ a {
     @media only screen and (max-width: 1068px) {
         .Row {
             flex-direction: column;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         .title-two {
