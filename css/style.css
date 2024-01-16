@@ -37,7 +37,7 @@ nav {
 }
 
 span {
-    color: rgb(150, 50, 204);
+    color: rgb(186, 50, 204);
 }
 
 nav ul li {
@@ -54,7 +54,7 @@ nav ul li .navbar__link {
 }
 
 nav ul li .navbar__link:hover {
-    color: darkorchid;
+    color: rgb(204, 50, 119);
     transition: 0.4s;
 }
 
@@ -115,7 +115,7 @@ h4 {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid darkorchid;
+    border: 2px solid rgb(186, 50, 204);
     outline: none;
     border-radius: 30px;
 }
@@ -551,12 +551,12 @@ footer p:nth-child(2) {
 }
 
 .html {
-    background: #e91e63;
+    background: #e35f06;
     animation: html 1s linear forwards;
 }
 
 .html span {
-    border: 1px solid #e91e63;
+    border: 1px solid #e35f06;
 }
 
 .sql {
@@ -577,13 +577,13 @@ footer p:nth-child(2) {
     border: 1px solid #1ec0e9;
 }
 
-.csharp {
-    background: #840eba;
-    animation: csharp 1s linear forwards;
+.angular {
+    background: #e91e63;
+    animation: angular 1s linear forwards;
 }
 
-.csharp span {
-    border: 1px solid #840eba;
+.angular span {
+    border: 1px solid #e91e63;
 }
 
 .netcore {
@@ -605,12 +605,12 @@ footer p:nth-child(2) {
 }
 
 .habilidadesblandas {
-    background: #522a3a;
+    background: #abd377;
     animation: habilidadesblandas 1s linear forwards;
 }
 
 .habilidadesblandas span {
-    border: 1px solid #522a3a;
+    border: 1px solid #abd377;
 }
 
 .ingles {
@@ -622,7 +622,7 @@ footer p:nth-child(2) {
     border: 1px solid #ffffff;
 }
 
-@keyframes csharp {
+@keyframes angular {
     100% {
         width: 75%;
     }
@@ -661,7 +661,7 @@ footer p:nth-child(2) {
 
 @keyframes netcore {
     100% {
-        width: 70%;
+        width: 75%;
     }
 }
 
@@ -747,7 +747,7 @@ a {
 }
 
 .btn-summary {
-    background-color: darkorchid;
+    background-color: rgb(158, 50, 204);
     border-radius: 10px;
     font-size: 14px;
     padding: 10px 25px;
